@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.cont-container{
+    background-color: #000422;
+  padding: 0 150px;
+}
+.header-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+.header-cont-text p{
+    color: white;
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact ul li{
+    list-style-type: none;
+    padding: 0 8px;
+    color: white;
+    
+}
+.logo img{
+    width: 150px;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+
+}
+.nav-menu{
+    position: relative;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+
+}
+.nav-menu ul li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #65687a;
+    padding: 10px 0;
+    
+}
+.nav-menu ul li a:hover{
+    border-bottom: 2px solid #003d13;
+}
+.nav-menu ul li span{
+    background-color: #003d13;
+    padding: 10px 25px;
+    color: white;
+}
+.nav-menu ul li span:hover{
+    background-color: #000422;
+}
+.nav-menu .nav-drop{
+    position: absolute;
+    flex-direction: column;
+    top: 30px;
+    background-color: #003d13;
+    display: none;
+    width: 200px;
+}
+.nav-menu .nav-drop li{
+    padding: 10px 30px;
+    color: white;
+
+}
+.nav-menu .nav-drop li:hover{
+    background-color: rgb(142, 141, 141);
+}
+.nav-menu ul li:hover > ul{
+    display: flex;
+}
+.main{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(roofing.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    height: 500px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.main-content-text h1{
+   font-size: 3rem;
+   color: white;
+}
+.main-content-text p{
+    color: white;
+    margin: 20px 0;
+}
+.btn1{
+    background-color: #003d13;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white; 
+    cursor: pointer;
+    display: block;
+    margin-right: 10px;
+}
+.btn1:hover{
+    background-color: #000422;
+    border: 0;
+}
+.btn2{
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white; 
+    cursor: pointer;
+    display: block;
+    margin-left: 10px;
+    
+}
+.btn2:hover{
+    background-color: #000422;
+    border: 0;
+}
+.buttons{
+    display: flex;
+}
+.main-content-video img{
+   height: 300px;
+}
+
+
